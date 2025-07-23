@@ -33,14 +33,14 @@ console.log(strToNum);//NaN
 //NaN => Not a Number, but its type is a number
 
 //Hitesh Sir's code
-let score = "Hitesh"
+let score = "Hitesh";
 
-//console.log(typeof score);
-//console.log(typeof(score));
+console.log(typeof score);
+console.log(typeof(score));
 
 let valInNumber = Number(score)
-//console.log(typeof valueInNumber);
-//console.log(valInNumber);
+console.log(typeof valInNumber);
+console.log(valInNumber);
 
 
 // "33" => 33
@@ -50,7 +50,7 @@ let valInNumber = Number(score)
 let isLoggedIn = "hitesh"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-//  console.log(booleanIsLoggedIn);
+console.log(booleanIsLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
@@ -59,44 +59,42 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-// console.log(stringNumber);
-// console.log(typeof stringNumber);
+console.log(stringNumber);
+console.log(typeof stringNumber);
 
 // *********************** Operations ***********************
 
 let value = 3
 let negValue = -value
-// console.log(negValue);
 
-// console.log(2+2);
-// console.log(2-2);
-// console.log(2*2);
-// console.log(2**3);
-// console.log(2/3);
-// console.log(2%3);
+console.log(negValue);
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3);//** => used for to the power, instead of ^
+console.log(2/3);
+console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
-
+let str2 = " Arpita"
 let str3 = str1 + str2
-// console.log(str3);
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
-
-// console.log( (3 + 4) * 5 % 3);
-
-// console.log(+true);
-// console.log(+"");
+console.log(str3);
+console.log("1" + 2);//12
+console.log(1 + "2");//12
+console.log("1" + "2");//12
+console.log("1" + 2 + 2);//122
+console.log(1 + 2 + "2");//32
+console.log( (3 + 4) * 5 % 3);//20
+console.log(+true);//1, for true+ it'll result in an error, makes no sense, don't use it
+console.log(+"");//0, makes no sense, don't use it
 
 let num1, num2, num3
 
 num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
-++gameCounter;
+++gameCounter;//101,with and without ++
 console.log(gameCounter);
 
 // link to study
